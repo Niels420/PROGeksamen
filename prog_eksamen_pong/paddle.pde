@@ -7,9 +7,9 @@ class Paddle{
 
   
   Paddle(){
-    x=250;
+    x=350;
     y=496;
-    tx=250;
+    tx=350;
     ty=2;
     }
   

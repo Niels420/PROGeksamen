@@ -1,5 +1,5 @@
 class Ball{
-  int x, y, savedtime, starttime,passedtime, w, h;
+  int x, y, savedtime, starttime,passedtime;
   boolean up, right, hit;
   float pux = -50;
   float puy = -50;

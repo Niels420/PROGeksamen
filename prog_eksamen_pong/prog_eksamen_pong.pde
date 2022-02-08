@@ -77,12 +77,12 @@ rectMode(CENTER);
     if (d==true){
       top.moveTright();
     }
-
+     box.powerhit();
     box.Boxs();
     pongball.move();
     pongball.bounce();
     pongball.show();
-    box.powerhit();
+   
     
     if (pongball.y<-8){
       gameover=true;
@@ -108,7 +108,7 @@ rectMode(CENTER);
 
 
     if (mousePressed==true){
-      pongball.x=int(random(200, 300));
+      pongball.x=int(random(300, 400));
       pongball.y=int(random(200, 300));
       int xdirection=int(random(2));
       int ydirection=int(random(2));
