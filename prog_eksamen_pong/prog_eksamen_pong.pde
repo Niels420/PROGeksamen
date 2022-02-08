@@ -77,9 +77,12 @@ rectMode(CENTER);
     if (d==true){
       top.moveTright();
     }
+
+    box.Boxs();
     pongball.move();
     pongball.bounce();
     pongball.show();
+    box.powerhit();
     
     if (pongball.y<-8){
       gameover=true;
@@ -102,7 +105,7 @@ rectMode(CENTER);
     text("          GAME OVER - CLICK TO PLAY AGAIN.", 15, 250);
 
     }
-    box.Boxs();
+
 
     if (mousePressed==true){
       pongball.x=int(random(200, 300));

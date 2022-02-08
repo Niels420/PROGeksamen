@@ -10,7 +10,7 @@ class Paddle{
     x=250;
     y=496;
     tx=250;
-    ty=0;
+    ty=2;
     }
   
   void show1(){
